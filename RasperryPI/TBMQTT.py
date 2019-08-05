@@ -6,7 +6,7 @@ import base64
 
 class ThunderBorgMQTT(mqtt.Client):
     def init(self):
-        # Init thunderborg
+        # Init ThunderBorg
         self.TB = ThunderBorg.ThunderBorg()
         self.TB.Init()
         if not self.TB.foundChip:
