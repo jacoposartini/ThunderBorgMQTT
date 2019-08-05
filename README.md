@@ -17,3 +17,5 @@ Before you run, set your options to the MQTT client:
 ```
 ## Run
 In your raspberry pi run ```python RasperryPI/TBMQTT.py``` and in the remote host run ```python TBMQTT_Remote_Controller.py```.
+## To drive ThunderBorg
+Use the arrow keys or alternatively aswd after clicking on the window.
