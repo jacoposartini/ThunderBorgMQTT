@@ -41,7 +41,7 @@ class ThunderBorgMQTT(mqtt.Client):
     def run(self):
         self.init()
         self.username_pw_set("username", "password")
-        self.connect('192.168.1.4', 1883, 60)
+        self.connect('your_broker_address', 1883, 60)
         self.subscribe('topic/cmd', 2)
         while True:
             try:
