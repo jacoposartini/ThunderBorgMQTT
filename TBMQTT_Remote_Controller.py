@@ -68,7 +68,7 @@ class ControllerMQTT(mqtt.Client):
         source = cv2.imdecode(npimg, 1)
         source = np.rot90(source, -1)
         source = pygame.surfarray.make_surface(source)
-        self.screen.blit(source,(0,0)) # "show image" on the screen
+        self.screen.blit(source,(0,0)) # Show image on the screen
         pygame.display.update()
 
 TBMQTT = ControllerMQTT()
