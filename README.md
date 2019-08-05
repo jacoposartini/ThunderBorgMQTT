@@ -16,6 +16,6 @@ Before running, you must have set up your PiCamera and your MQTT client settings
   self.subscribe('your_topic/cam', 0)
 ```
 ## Run
-In your raspberry pi run: ```python RasperryPI/TBMQTT.py``` and in the remote host run: ```python TBMQTT_Remote_Controller.py```.
+In your raspberry pi run ```python RasperryPI/TBMQTT.py``` and in the remote host run ```python TBMQTT_Remote_Controller.py```.
 ## To drive ThunderBorg
 Use the arrow keys or alternatively aswd after clicking on the window.
