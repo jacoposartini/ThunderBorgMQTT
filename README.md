@@ -8,15 +8,6 @@ Install requirements:
 ```
 pip install -r requirements.txt
 ```
-## Install
-Clone the source code:
-```
-git clone https://github.com/jacoposartini/SQLite3_HBMQTT_Plugins.git
-```
-Install requirements:
-```
-pip install -r requirements.txt
-```
 ## Setting
 Before you run, set your options to the MQTT client:
 ```
