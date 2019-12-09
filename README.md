@@ -2,7 +2,7 @@
 ## Install
 Clone the source code:
 ```
-git clone https://github.com/jacoposartini/SQLite3_HBMQTT_Plugins.git
+git clone https://github.com/jacoposartini/ThunderBorgMQTT.git
 ```
 Install requirements:
 ```
